@@ -12,11 +12,15 @@ h2 {
     font-family: fantasy, papyrus;
 }
 
-h3, 
-p,
-li {
+h3 {
     color: coral;
     font-family: fantasy, papyrus;
+}
+
+p,
+li {
+    color: #ffdf50;
+    font-family: serif;
 }
 
 img {
