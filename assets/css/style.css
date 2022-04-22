@@ -2,19 +2,21 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: coral;
+    font-family: fantasy, papyrus;
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: coral;
+    font-family: fantasy, papyrus;
 }
 
 img {
@@ -23,18 +25,21 @@ img {
     max-width: 100%;
 }
 
+
+
 main {
     margin: 0 20%;
 }
 
 nav {
-    background-color: beige;
+    background-color: black;
     padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
     text-align: center;
+    font-family: fantasy, papyrus;
 }
 
 nav li {
@@ -44,12 +49,13 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: coral;
     margin-right: 25px;
+    font-family: fantasy, papyrus;
 }
 
 nav a:hover {
-    color: darkred;
+    color: yellow;
 }
 
 #banner {
@@ -59,28 +65,31 @@ nav a:hover {
 }
 
 #banner img {
-    width: 60%;
+    width: 20%;
     height: auto;
 }
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
+    text-align: center;
+    background-color: black;
+    border: 5px solid yellow;
     border-radius: 5px;
-    color: darkred;
+    color: coral;
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    font-family: fantasy, papyrus;
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid white;
     width: 100%;
+    color: #ffdf50;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
 }
